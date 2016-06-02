@@ -1,0 +1,927 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@2.15.0
+3 info using node@v4.4.2
+4 verbose readDependencies loading dependencies from /home/adsi1/Documentos/plantillaI/package.json
+5 warn package.json ejemplo@1.0.0 No repository field.
+6 warn package.json ejemplo@1.0.0 No README data
+7 verbose install where, deps [ '/home/adsi1/Documentos/plantillaI',
+7 verbose install   [ 'express',
+7 verbose install     'nodemailer',
+7 verbose install     'browser-sync',
+7 verbose install     'gulp',
+7 verbose install     'gulp-angular-templatecache',
+7 verbose install     'gulp-browserify',
+7 verbose install     'gulp-concat',
+7 verbose install     'gulp-htmlmin',
+7 verbose install     'gulp-if',
+7 verbose install     'gulp-ignore',
+7 verbose install     'gulp-imagemin',
+7 verbose install     'gulp-inject',
+7 verbose install     'gulp-jshint',
+7 verbose install     'gulp-livereload',
+7 verbose install     'gulp-minify-css',
+7 verbose install     'gulp-minify-html',
+7 verbose install     'gulp-rename',
+7 verbose install     'gulp-rimraf',
+7 verbose install     'gulp-stylus',
+7 verbose install     'gulp-uglify',
+7 verbose install     'gulp-uncss',
+7 verbose install     'gulp-useref',
+7 verbose install     'jshint',
+7 verbose install     'nib',
+7 verbose install     'wiredep' ] ]
+8 verbose install where, peers [ '/home/adsi1/Documentos/plantillaI', [] ]
+9 verbose installManyTop reading for lifecycle /home/adsi1/Documentos/plantillaI/package.json
+10 info preinstall ejemplo@1.0.0
+11 verbose readDependencies loading dependencies from /home/adsi1/Documentos/plantillaI/package.json
+12 silly cache add args [ 'express@^4.13.4', null ]
+13 verbose cache add spec express@^4.13.4
+14 silly cache add args [ 'nodemailer@^2.4.1', null ]
+15 verbose cache add spec nodemailer@^2.4.1
+16 silly cache add parsed spec Result {
+16 silly cache add   raw: 'express@^4.13.4',
+16 silly cache add   scope: null,
+16 silly cache add   name: 'express',
+16 silly cache add   rawSpec: '^4.13.4',
+16 silly cache add   spec: '>=4.13.4 <5.0.0',
+16 silly cache add   type: 'range' }
+17 silly addNamed express@>=4.13.4 <5.0.0
+18 verbose addNamed ">=4.13.4 <5.0.0" is a valid semver range for express
+19 silly addNameRange { name: 'express', range: '>=4.13.4 <5.0.0', hasData: false }
+20 silly mapToRegistry name express
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'express',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   name: 'express',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/express
+25 verbose addNameRange registry:https://registry.npmjs.org/express not in flight; fetching
+26 silly cache add parsed spec Result {
+26 silly cache add   raw: 'nodemailer@^2.4.1',
+26 silly cache add   scope: null,
+26 silly cache add   name: 'nodemailer',
+26 silly cache add   rawSpec: '^2.4.1',
+26 silly cache add   spec: '>=2.4.1 <3.0.0',
+26 silly cache add   type: 'range' }
+27 silly addNamed nodemailer@>=2.4.1 <3.0.0
+28 verbose addNamed ">=2.4.1 <3.0.0" is a valid semver range for nodemailer
+29 silly addNameRange { name: 'nodemailer', range: '>=2.4.1 <3.0.0', hasData: false }
+30 silly mapToRegistry name nodemailer
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry data Result {
+33 silly mapToRegistry   raw: 'nodemailer',
+33 silly mapToRegistry   scope: null,
+33 silly mapToRegistry   name: 'nodemailer',
+33 silly mapToRegistry   rawSpec: '',
+33 silly mapToRegistry   spec: 'latest',
+33 silly mapToRegistry   type: 'tag' }
+34 silly mapToRegistry uri https://registry.npmjs.org/nodemailer
+35 verbose addNameRange registry:https://registry.npmjs.org/nodemailer not in flight; fetching
+36 silly cache add args [ 'browser-sync@^2.11.1', null ]
+37 verbose cache add spec browser-sync@^2.11.1
+38 silly cache add parsed spec Result {
+38 silly cache add   raw: 'browser-sync@^2.11.1',
+38 silly cache add   scope: null,
+38 silly cache add   name: 'browser-sync',
+38 silly cache add   rawSpec: '^2.11.1',
+38 silly cache add   spec: '>=2.11.1 <3.0.0',
+38 silly cache add   type: 'range' }
+39 silly addNamed browser-sync@>=2.11.1 <3.0.0
+40 verbose addNamed ">=2.11.1 <3.0.0" is a valid semver range for browser-sync
+41 silly addNameRange { name: 'browser-sync',
+41 silly addNameRange   range: '>=2.11.1 <3.0.0',
+41 silly addNameRange   hasData: false }
+42 silly mapToRegistry name browser-sync
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry data Result {
+45 silly mapToRegistry   raw: 'browser-sync',
+45 silly mapToRegistry   scope: null,
+45 silly mapToRegistry   name: 'browser-sync',
+45 silly mapToRegistry   rawSpec: '',
+45 silly mapToRegistry   spec: 'latest',
+45 silly mapToRegistry   type: 'tag' }
+46 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+47 verbose addNameRange registry:https://registry.npmjs.org/browser-sync not in flight; fetching
+48 silly cache add args [ 'gulp@^3.9.1', null ]
+49 verbose cache add spec gulp@^3.9.1
+50 silly cache add parsed spec Result {
+50 silly cache add   raw: 'gulp@^3.9.1',
+50 silly cache add   scope: null,
+50 silly cache add   name: 'gulp',
+50 silly cache add   rawSpec: '^3.9.1',
+50 silly cache add   spec: '>=3.9.1 <4.0.0',
+50 silly cache add   type: 'range' }
+51 silly addNamed gulp@>=3.9.1 <4.0.0
+52 verbose addNamed ">=3.9.1 <4.0.0" is a valid semver range for gulp
+53 silly addNameRange { name: 'gulp', range: '>=3.9.1 <4.0.0', hasData: false }
+54 silly mapToRegistry name gulp
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'gulp',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   name: 'gulp',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/gulp
+59 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+60 silly cache add args [ 'gulp-angular-templatecache@^1.8.0', null ]
+61 verbose cache add spec gulp-angular-templatecache@^1.8.0
+62 silly cache add parsed spec Result {
+62 silly cache add   raw: 'gulp-angular-templatecache@^1.8.0',
+62 silly cache add   scope: null,
+62 silly cache add   name: 'gulp-angular-templatecache',
+62 silly cache add   rawSpec: '^1.8.0',
+62 silly cache add   spec: '>=1.8.0 <2.0.0',
+62 silly cache add   type: 'range' }
+63 silly addNamed gulp-angular-templatecache@>=1.8.0 <2.0.0
+64 verbose addNamed ">=1.8.0 <2.0.0" is a valid semver range for gulp-angular-templatecache
+65 silly addNameRange { name: 'gulp-angular-templatecache',
+65 silly addNameRange   range: '>=1.8.0 <2.0.0',
+65 silly addNameRange   hasData: false }
+66 silly mapToRegistry name gulp-angular-templatecache
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry data Result {
+69 silly mapToRegistry   raw: 'gulp-angular-templatecache',
+69 silly mapToRegistry   scope: null,
+69 silly mapToRegistry   name: 'gulp-angular-templatecache',
+69 silly mapToRegistry   rawSpec: '',
+69 silly mapToRegistry   spec: 'latest',
+69 silly mapToRegistry   type: 'tag' }
+70 silly mapToRegistry uri https://registry.npmjs.org/gulp-angular-templatecache
+71 verbose addNameRange registry:https://registry.npmjs.org/gulp-angular-templatecache not in flight; fetching
+72 silly cache add args [ 'gulp-browserify@^0.5.1', null ]
+73 verbose cache add spec gulp-browserify@^0.5.1
+74 silly cache add parsed spec Result {
+74 silly cache add   raw: 'gulp-browserify@^0.5.1',
+74 silly cache add   scope: null,
+74 silly cache add   name: 'gulp-browserify',
+74 silly cache add   rawSpec: '^0.5.1',
+74 silly cache add   spec: '>=0.5.1 <0.6.0',
+74 silly cache add   type: 'range' }
+75 silly addNamed gulp-browserify@>=0.5.1 <0.6.0
+76 verbose addNamed ">=0.5.1 <0.6.0" is a valid semver range for gulp-browserify
+77 silly addNameRange { name: 'gulp-browserify',
+77 silly addNameRange   range: '>=0.5.1 <0.6.0',
+77 silly addNameRange   hasData: false }
+78 silly mapToRegistry name gulp-browserify
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry data Result {
+81 silly mapToRegistry   raw: 'gulp-browserify',
+81 silly mapToRegistry   scope: null,
+81 silly mapToRegistry   name: 'gulp-browserify',
+81 silly mapToRegistry   rawSpec: '',
+81 silly mapToRegistry   spec: 'latest',
+81 silly mapToRegistry   type: 'tag' }
+82 silly mapToRegistry uri https://registry.npmjs.org/gulp-browserify
+83 verbose addNameRange registry:https://registry.npmjs.org/gulp-browserify not in flight; fetching
+84 silly cache add args [ 'gulp-concat@^2.6.0', null ]
+85 verbose cache add spec gulp-concat@^2.6.0
+86 silly cache add parsed spec Result {
+86 silly cache add   raw: 'gulp-concat@^2.6.0',
+86 silly cache add   scope: null,
+86 silly cache add   name: 'gulp-concat',
+86 silly cache add   rawSpec: '^2.6.0',
+86 silly cache add   spec: '>=2.6.0 <3.0.0',
+86 silly cache add   type: 'range' }
+87 silly addNamed gulp-concat@>=2.6.0 <3.0.0
+88 verbose addNamed ">=2.6.0 <3.0.0" is a valid semver range for gulp-concat
+89 silly addNameRange { name: 'gulp-concat', range: '>=2.6.0 <3.0.0', hasData: false }
+90 silly mapToRegistry name gulp-concat
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry data Result {
+93 silly mapToRegistry   raw: 'gulp-concat',
+93 silly mapToRegistry   scope: null,
+93 silly mapToRegistry   name: 'gulp-concat',
+93 silly mapToRegistry   rawSpec: '',
+93 silly mapToRegistry   spec: 'latest',
+93 silly mapToRegistry   type: 'tag' }
+94 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+95 verbose addNameRange registry:https://registry.npmjs.org/gulp-concat not in flight; fetching
+96 silly cache add args [ 'gulp-htmlmin@^1.3.0', null ]
+97 verbose cache add spec gulp-htmlmin@^1.3.0
+98 silly cache add parsed spec Result {
+98 silly cache add   raw: 'gulp-htmlmin@^1.3.0',
+98 silly cache add   scope: null,
+98 silly cache add   name: 'gulp-htmlmin',
+98 silly cache add   rawSpec: '^1.3.0',
+98 silly cache add   spec: '>=1.3.0 <2.0.0',
+98 silly cache add   type: 'range' }
+99 silly addNamed gulp-htmlmin@>=1.3.0 <2.0.0
+100 verbose addNamed ">=1.3.0 <2.0.0" is a valid semver range for gulp-htmlmin
+101 silly addNameRange { name: 'gulp-htmlmin', range: '>=1.3.0 <2.0.0', hasData: false }
+102 silly mapToRegistry name gulp-htmlmin
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry data Result {
+105 silly mapToRegistry   raw: 'gulp-htmlmin',
+105 silly mapToRegistry   scope: null,
+105 silly mapToRegistry   name: 'gulp-htmlmin',
+105 silly mapToRegistry   rawSpec: '',
+105 silly mapToRegistry   spec: 'latest',
+105 silly mapToRegistry   type: 'tag' }
+106 silly mapToRegistry uri https://registry.npmjs.org/gulp-htmlmin
+107 verbose addNameRange registry:https://registry.npmjs.org/gulp-htmlmin not in flight; fetching
+108 silly cache add args [ 'gulp-if@^2.0.0', null ]
+109 verbose cache add spec gulp-if@^2.0.0
+110 silly cache add parsed spec Result {
+110 silly cache add   raw: 'gulp-if@^2.0.0',
+110 silly cache add   scope: null,
+110 silly cache add   name: 'gulp-if',
+110 silly cache add   rawSpec: '^2.0.0',
+110 silly cache add   spec: '>=2.0.0 <3.0.0',
+110 silly cache add   type: 'range' }
+111 silly addNamed gulp-if@>=2.0.0 <3.0.0
+112 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for gulp-if
+113 silly addNameRange { name: 'gulp-if', range: '>=2.0.0 <3.0.0', hasData: false }
+114 silly mapToRegistry name gulp-if
+115 silly mapToRegistry using default registry
+116 silly mapToRegistry registry https://registry.npmjs.org/
+117 silly mapToRegistry data Result {
+117 silly mapToRegistry   raw: 'gulp-if',
+117 silly mapToRegistry   scope: null,
+117 silly mapToRegistry   name: 'gulp-if',
+117 silly mapToRegistry   rawSpec: '',
+117 silly mapToRegistry   spec: 'latest',
+117 silly mapToRegistry   type: 'tag' }
+118 silly mapToRegistry uri https://registry.npmjs.org/gulp-if
+119 verbose addNameRange registry:https://registry.npmjs.org/gulp-if not in flight; fetching
+120 silly cache add args [ 'gulp-ignore@^2.0.1', null ]
+121 verbose cache add spec gulp-ignore@^2.0.1
+122 silly cache add parsed spec Result {
+122 silly cache add   raw: 'gulp-ignore@^2.0.1',
+122 silly cache add   scope: null,
+122 silly cache add   name: 'gulp-ignore',
+122 silly cache add   rawSpec: '^2.0.1',
+122 silly cache add   spec: '>=2.0.1 <3.0.0',
+122 silly cache add   type: 'range' }
+123 silly addNamed gulp-ignore@>=2.0.1 <3.0.0
+124 verbose addNamed ">=2.0.1 <3.0.0" is a valid semver range for gulp-ignore
+125 silly addNameRange { name: 'gulp-ignore', range: '>=2.0.1 <3.0.0', hasData: false }
+126 silly mapToRegistry name gulp-ignore
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry data Result {
+129 silly mapToRegistry   raw: 'gulp-ignore',
+129 silly mapToRegistry   scope: null,
+129 silly mapToRegistry   name: 'gulp-ignore',
+129 silly mapToRegistry   rawSpec: '',
+129 silly mapToRegistry   spec: 'latest',
+129 silly mapToRegistry   type: 'tag' }
+130 silly mapToRegistry uri https://registry.npmjs.org/gulp-ignore
+131 verbose addNameRange registry:https://registry.npmjs.org/gulp-ignore not in flight; fetching
+132 silly cache add args [ 'gulp-imagemin@^3.0.1', null ]
+133 verbose cache add spec gulp-imagemin@^3.0.1
+134 silly cache add parsed spec Result {
+134 silly cache add   raw: 'gulp-imagemin@^3.0.1',
+134 silly cache add   scope: null,
+134 silly cache add   name: 'gulp-imagemin',
+134 silly cache add   rawSpec: '^3.0.1',
+134 silly cache add   spec: '>=3.0.1 <4.0.0',
+134 silly cache add   type: 'range' }
+135 silly addNamed gulp-imagemin@>=3.0.1 <4.0.0
+136 verbose addNamed ">=3.0.1 <4.0.0" is a valid semver range for gulp-imagemin
+137 silly addNameRange { name: 'gulp-imagemin',
+137 silly addNameRange   range: '>=3.0.1 <4.0.0',
+137 silly addNameRange   hasData: false }
+138 silly mapToRegistry name gulp-imagemin
+139 silly mapToRegistry using default registry
+140 silly mapToRegistry registry https://registry.npmjs.org/
+141 silly mapToRegistry data Result {
+141 silly mapToRegistry   raw: 'gulp-imagemin',
+141 silly mapToRegistry   scope: null,
+141 silly mapToRegistry   name: 'gulp-imagemin',
+141 silly mapToRegistry   rawSpec: '',
+141 silly mapToRegistry   spec: 'latest',
+141 silly mapToRegistry   type: 'tag' }
+142 silly mapToRegistry uri https://registry.npmjs.org/gulp-imagemin
+143 verbose addNameRange registry:https://registry.npmjs.org/gulp-imagemin not in flight; fetching
+144 silly cache add args [ 'gulp-inject@^3.0.0', null ]
+145 verbose cache add spec gulp-inject@^3.0.0
+146 silly cache add parsed spec Result {
+146 silly cache add   raw: 'gulp-inject@^3.0.0',
+146 silly cache add   scope: null,
+146 silly cache add   name: 'gulp-inject',
+146 silly cache add   rawSpec: '^3.0.0',
+146 silly cache add   spec: '>=3.0.0 <4.0.0',
+146 silly cache add   type: 'range' }
+147 silly addNamed gulp-inject@>=3.0.0 <4.0.0
+148 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for gulp-inject
+149 silly addNameRange { name: 'gulp-inject', range: '>=3.0.0 <4.0.0', hasData: false }
+150 silly mapToRegistry name gulp-inject
+151 silly mapToRegistry using default registry
+152 silly mapToRegistry registry https://registry.npmjs.org/
+153 silly mapToRegistry data Result {
+153 silly mapToRegistry   raw: 'gulp-inject',
+153 silly mapToRegistry   scope: null,
+153 silly mapToRegistry   name: 'gulp-inject',
+153 silly mapToRegistry   rawSpec: '',
+153 silly mapToRegistry   spec: 'latest',
+153 silly mapToRegistry   type: 'tag' }
+154 silly mapToRegistry uri https://registry.npmjs.org/gulp-inject
+155 verbose addNameRange registry:https://registry.npmjs.org/gulp-inject not in flight; fetching
+156 silly cache add args [ 'gulp-jshint@^2.0.0', null ]
+157 verbose cache add spec gulp-jshint@^2.0.0
+158 silly cache add parsed spec Result {
+158 silly cache add   raw: 'gulp-jshint@^2.0.0',
+158 silly cache add   scope: null,
+158 silly cache add   name: 'gulp-jshint',
+158 silly cache add   rawSpec: '^2.0.0',
+158 silly cache add   spec: '>=2.0.0 <3.0.0',
+158 silly cache add   type: 'range' }
+159 silly addNamed gulp-jshint@>=2.0.0 <3.0.0
+160 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for gulp-jshint
+161 silly addNameRange { name: 'gulp-jshint', range: '>=2.0.0 <3.0.0', hasData: false }
+162 silly mapToRegistry name gulp-jshint
+163 silly mapToRegistry using default registry
+164 silly mapToRegistry registry https://registry.npmjs.org/
+165 silly mapToRegistry data Result {
+165 silly mapToRegistry   raw: 'gulp-jshint',
+165 silly mapToRegistry   scope: null,
+165 silly mapToRegistry   name: 'gulp-jshint',
+165 silly mapToRegistry   rawSpec: '',
+165 silly mapToRegistry   spec: 'latest',
+165 silly mapToRegistry   type: 'tag' }
+166 silly mapToRegistry uri https://registry.npmjs.org/gulp-jshint
+167 verbose addNameRange registry:https://registry.npmjs.org/gulp-jshint not in flight; fetching
+168 silly cache add args [ 'gulp-livereload@^3.8.1', null ]
+169 verbose cache add spec gulp-livereload@^3.8.1
+170 silly cache add parsed spec Result {
+170 silly cache add   raw: 'gulp-livereload@^3.8.1',
+170 silly cache add   scope: null,
+170 silly cache add   name: 'gulp-livereload',
+170 silly cache add   rawSpec: '^3.8.1',
+170 silly cache add   spec: '>=3.8.1 <4.0.0',
+170 silly cache add   type: 'range' }
+171 silly addNamed gulp-livereload@>=3.8.1 <4.0.0
+172 verbose addNamed ">=3.8.1 <4.0.0" is a valid semver range for gulp-livereload
+173 silly addNameRange { name: 'gulp-livereload',
+173 silly addNameRange   range: '>=3.8.1 <4.0.0',
+173 silly addNameRange   hasData: false }
+174 silly mapToRegistry name gulp-livereload
+175 silly mapToRegistry using default registry
+176 silly mapToRegistry registry https://registry.npmjs.org/
+177 silly mapToRegistry data Result {
+177 silly mapToRegistry   raw: 'gulp-livereload',
+177 silly mapToRegistry   scope: null,
+177 silly mapToRegistry   name: 'gulp-livereload',
+177 silly mapToRegistry   rawSpec: '',
+177 silly mapToRegistry   spec: 'latest',
+177 silly mapToRegistry   type: 'tag' }
+178 silly mapToRegistry uri https://registry.npmjs.org/gulp-livereload
+179 verbose addNameRange registry:https://registry.npmjs.org/gulp-livereload not in flight; fetching
+180 silly cache add args [ 'gulp-minify-css@^1.2.3', null ]
+181 verbose cache add spec gulp-minify-css@^1.2.3
+182 silly cache add parsed spec Result {
+182 silly cache add   raw: 'gulp-minify-css@^1.2.3',
+182 silly cache add   scope: null,
+182 silly cache add   name: 'gulp-minify-css',
+182 silly cache add   rawSpec: '^1.2.3',
+182 silly cache add   spec: '>=1.2.3 <2.0.0',
+182 silly cache add   type: 'range' }
+183 silly addNamed gulp-minify-css@>=1.2.3 <2.0.0
+184 verbose addNamed ">=1.2.3 <2.0.0" is a valid semver range for gulp-minify-css
+185 silly addNameRange { name: 'gulp-minify-css',
+185 silly addNameRange   range: '>=1.2.3 <2.0.0',
+185 silly addNameRange   hasData: false }
+186 silly mapToRegistry name gulp-minify-css
+187 silly mapToRegistry using default registry
+188 silly mapToRegistry registry https://registry.npmjs.org/
+189 silly mapToRegistry data Result {
+189 silly mapToRegistry   raw: 'gulp-minify-css',
+189 silly mapToRegistry   scope: null,
+189 silly mapToRegistry   name: 'gulp-minify-css',
+189 silly mapToRegistry   rawSpec: '',
+189 silly mapToRegistry   spec: 'latest',
+189 silly mapToRegistry   type: 'tag' }
+190 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-css
+191 verbose addNameRange registry:https://registry.npmjs.org/gulp-minify-css not in flight; fetching
+192 silly cache add args [ 'gulp-minify-html@^1.0.5', null ]
+193 verbose cache add spec gulp-minify-html@^1.0.5
+194 silly cache add parsed spec Result {
+194 silly cache add   raw: 'gulp-minify-html@^1.0.5',
+194 silly cache add   scope: null,
+194 silly cache add   name: 'gulp-minify-html',
+194 silly cache add   rawSpec: '^1.0.5',
+194 silly cache add   spec: '>=1.0.5 <2.0.0',
+194 silly cache add   type: 'range' }
+195 silly addNamed gulp-minify-html@>=1.0.5 <2.0.0
+196 verbose addNamed ">=1.0.5 <2.0.0" is a valid semver range for gulp-minify-html
+197 silly addNameRange { name: 'gulp-minify-html',
+197 silly addNameRange   range: '>=1.0.5 <2.0.0',
+197 silly addNameRange   hasData: false }
+198 silly mapToRegistry name gulp-minify-html
+199 silly mapToRegistry using default registry
+200 silly mapToRegistry registry https://registry.npmjs.org/
+201 silly mapToRegistry data Result {
+201 silly mapToRegistry   raw: 'gulp-minify-html',
+201 silly mapToRegistry   scope: null,
+201 silly mapToRegistry   name: 'gulp-minify-html',
+201 silly mapToRegistry   rawSpec: '',
+201 silly mapToRegistry   spec: 'latest',
+201 silly mapToRegistry   type: 'tag' }
+202 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-html
+203 verbose addNameRange registry:https://registry.npmjs.org/gulp-minify-html not in flight; fetching
+204 silly cache add args [ 'gulp-rename@^1.2.2', null ]
+205 verbose cache add spec gulp-rename@^1.2.2
+206 silly cache add parsed spec Result {
+206 silly cache add   raw: 'gulp-rename@^1.2.2',
+206 silly cache add   scope: null,
+206 silly cache add   name: 'gulp-rename',
+206 silly cache add   rawSpec: '^1.2.2',
+206 silly cache add   spec: '>=1.2.2 <2.0.0',
+206 silly cache add   type: 'range' }
+207 silly addNamed gulp-rename@>=1.2.2 <2.0.0
+208 verbose addNamed ">=1.2.2 <2.0.0" is a valid semver range for gulp-rename
+209 silly addNameRange { name: 'gulp-rename', range: '>=1.2.2 <2.0.0', hasData: false }
+210 silly mapToRegistry name gulp-rename
+211 silly mapToRegistry using default registry
+212 silly mapToRegistry registry https://registry.npmjs.org/
+213 silly mapToRegistry data Result {
+213 silly mapToRegistry   raw: 'gulp-rename',
+213 silly mapToRegistry   scope: null,
+213 silly mapToRegistry   name: 'gulp-rename',
+213 silly mapToRegistry   rawSpec: '',
+213 silly mapToRegistry   spec: 'latest',
+213 silly mapToRegistry   type: 'tag' }
+214 silly mapToRegistry uri https://registry.npmjs.org/gulp-rename
+215 verbose addNameRange registry:https://registry.npmjs.org/gulp-rename not in flight; fetching
+216 silly cache add args [ 'gulp-rimraf@^0.2.0', null ]
+217 verbose cache add spec gulp-rimraf@^0.2.0
+218 silly cache add parsed spec Result {
+218 silly cache add   raw: 'gulp-rimraf@^0.2.0',
+218 silly cache add   scope: null,
+218 silly cache add   name: 'gulp-rimraf',
+218 silly cache add   rawSpec: '^0.2.0',
+218 silly cache add   spec: '>=0.2.0 <0.3.0',
+218 silly cache add   type: 'range' }
+219 silly addNamed gulp-rimraf@>=0.2.0 <0.3.0
+220 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for gulp-rimraf
+221 silly addNameRange { name: 'gulp-rimraf', range: '>=0.2.0 <0.3.0', hasData: false }
+222 silly mapToRegistry name gulp-rimraf
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry https://registry.npmjs.org/
+225 silly mapToRegistry data Result {
+225 silly mapToRegistry   raw: 'gulp-rimraf',
+225 silly mapToRegistry   scope: null,
+225 silly mapToRegistry   name: 'gulp-rimraf',
+225 silly mapToRegistry   rawSpec: '',
+225 silly mapToRegistry   spec: 'latest',
+225 silly mapToRegistry   type: 'tag' }
+226 silly mapToRegistry uri https://registry.npmjs.org/gulp-rimraf
+227 verbose addNameRange registry:https://registry.npmjs.org/gulp-rimraf not in flight; fetching
+228 silly cache add args [ 'gulp-stylus@^2.3.0', null ]
+229 verbose cache add spec gulp-stylus@^2.3.0
+230 silly cache add parsed spec Result {
+230 silly cache add   raw: 'gulp-stylus@^2.3.0',
+230 silly cache add   scope: null,
+230 silly cache add   name: 'gulp-stylus',
+230 silly cache add   rawSpec: '^2.3.0',
+230 silly cache add   spec: '>=2.3.0 <3.0.0',
+230 silly cache add   type: 'range' }
+231 silly addNamed gulp-stylus@>=2.3.0 <3.0.0
+232 verbose addNamed ">=2.3.0 <3.0.0" is a valid semver range for gulp-stylus
+233 silly addNameRange { name: 'gulp-stylus', range: '>=2.3.0 <3.0.0', hasData: false }
+234 silly mapToRegistry name gulp-stylus
+235 silly mapToRegistry using default registry
+236 silly mapToRegistry registry https://registry.npmjs.org/
+237 silly mapToRegistry data Result {
+237 silly mapToRegistry   raw: 'gulp-stylus',
+237 silly mapToRegistry   scope: null,
+237 silly mapToRegistry   name: 'gulp-stylus',
+237 silly mapToRegistry   rawSpec: '',
+237 silly mapToRegistry   spec: 'latest',
+237 silly mapToRegistry   type: 'tag' }
+238 silly mapToRegistry uri https://registry.npmjs.org/gulp-stylus
+239 verbose addNameRange registry:https://registry.npmjs.org/gulp-stylus not in flight; fetching
+240 silly cache add args [ 'gulp-uglify@^1.5.2', null ]
+241 verbose cache add spec gulp-uglify@^1.5.2
+242 silly cache add parsed spec Result {
+242 silly cache add   raw: 'gulp-uglify@^1.5.2',
+242 silly cache add   scope: null,
+242 silly cache add   name: 'gulp-uglify',
+242 silly cache add   rawSpec: '^1.5.2',
+242 silly cache add   spec: '>=1.5.2 <2.0.0',
+242 silly cache add   type: 'range' }
+243 silly addNamed gulp-uglify@>=1.5.2 <2.0.0
+244 verbose addNamed ">=1.5.2 <2.0.0" is a valid semver range for gulp-uglify
+245 silly addNameRange { name: 'gulp-uglify', range: '>=1.5.2 <2.0.0', hasData: false }
+246 silly mapToRegistry name gulp-uglify
+247 silly mapToRegistry using default registry
+248 silly mapToRegistry registry https://registry.npmjs.org/
+249 silly mapToRegistry data Result {
+249 silly mapToRegistry   raw: 'gulp-uglify',
+249 silly mapToRegistry   scope: null,
+249 silly mapToRegistry   name: 'gulp-uglify',
+249 silly mapToRegistry   rawSpec: '',
+249 silly mapToRegistry   spec: 'latest',
+249 silly mapToRegistry   type: 'tag' }
+250 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+251 verbose addNameRange registry:https://registry.npmjs.org/gulp-uglify not in flight; fetching
+252 silly cache add args [ 'gulp-uncss@^1.0.4', null ]
+253 verbose cache add spec gulp-uncss@^1.0.4
+254 silly cache add parsed spec Result {
+254 silly cache add   raw: 'gulp-uncss@^1.0.4',
+254 silly cache add   scope: null,
+254 silly cache add   name: 'gulp-uncss',
+254 silly cache add   rawSpec: '^1.0.4',
+254 silly cache add   spec: '>=1.0.4 <2.0.0',
+254 silly cache add   type: 'range' }
+255 silly addNamed gulp-uncss@>=1.0.4 <2.0.0
+256 verbose addNamed ">=1.0.4 <2.0.0" is a valid semver range for gulp-uncss
+257 silly addNameRange { name: 'gulp-uncss', range: '>=1.0.4 <2.0.0', hasData: false }
+258 silly mapToRegistry name gulp-uncss
+259 silly mapToRegistry using default registry
+260 silly mapToRegistry registry https://registry.npmjs.org/
+261 silly mapToRegistry data Result {
+261 silly mapToRegistry   raw: 'gulp-uncss',
+261 silly mapToRegistry   scope: null,
+261 silly mapToRegistry   name: 'gulp-uncss',
+261 silly mapToRegistry   rawSpec: '',
+261 silly mapToRegistry   spec: 'latest',
+261 silly mapToRegistry   type: 'tag' }
+262 silly mapToRegistry uri https://registry.npmjs.org/gulp-uncss
+263 verbose addNameRange registry:https://registry.npmjs.org/gulp-uncss not in flight; fetching
+264 silly cache add args [ 'gulp-useref@^3.0.6', null ]
+265 verbose cache add spec gulp-useref@^3.0.6
+266 silly cache add parsed spec Result {
+266 silly cache add   raw: 'gulp-useref@^3.0.6',
+266 silly cache add   scope: null,
+266 silly cache add   name: 'gulp-useref',
+266 silly cache add   rawSpec: '^3.0.6',
+266 silly cache add   spec: '>=3.0.6 <4.0.0',
+266 silly cache add   type: 'range' }
+267 silly addNamed gulp-useref@>=3.0.6 <4.0.0
+268 verbose addNamed ">=3.0.6 <4.0.0" is a valid semver range for gulp-useref
+269 silly addNameRange { name: 'gulp-useref', range: '>=3.0.6 <4.0.0', hasData: false }
+270 silly mapToRegistry name gulp-useref
+271 silly mapToRegistry using default registry
+272 silly mapToRegistry registry https://registry.npmjs.org/
+273 silly mapToRegistry data Result {
+273 silly mapToRegistry   raw: 'gulp-useref',
+273 silly mapToRegistry   scope: null,
+273 silly mapToRegistry   name: 'gulp-useref',
+273 silly mapToRegistry   rawSpec: '',
+273 silly mapToRegistry   spec: 'latest',
+273 silly mapToRegistry   type: 'tag' }
+274 silly mapToRegistry uri https://registry.npmjs.org/gulp-useref
+275 verbose addNameRange registry:https://registry.npmjs.org/gulp-useref not in flight; fetching
+276 silly cache add args [ 'jshint@^2.9.1', null ]
+277 verbose cache add spec jshint@^2.9.1
+278 silly cache add parsed spec Result {
+278 silly cache add   raw: 'jshint@^2.9.1',
+278 silly cache add   scope: null,
+278 silly cache add   name: 'jshint',
+278 silly cache add   rawSpec: '^2.9.1',
+278 silly cache add   spec: '>=2.9.1 <3.0.0',
+278 silly cache add   type: 'range' }
+279 silly addNamed jshint@>=2.9.1 <3.0.0
+280 verbose addNamed ">=2.9.1 <3.0.0" is a valid semver range for jshint
+281 silly addNameRange { name: 'jshint', range: '>=2.9.1 <3.0.0', hasData: false }
+282 silly mapToRegistry name jshint
+283 silly mapToRegistry using default registry
+284 silly mapToRegistry registry https://registry.npmjs.org/
+285 silly mapToRegistry data Result {
+285 silly mapToRegistry   raw: 'jshint',
+285 silly mapToRegistry   scope: null,
+285 silly mapToRegistry   name: 'jshint',
+285 silly mapToRegistry   rawSpec: '',
+285 silly mapToRegistry   spec: 'latest',
+285 silly mapToRegistry   type: 'tag' }
+286 silly mapToRegistry uri https://registry.npmjs.org/jshint
+287 verbose addNameRange registry:https://registry.npmjs.org/jshint not in flight; fetching
+288 silly cache add args [ 'nib@^1.1.0', null ]
+289 verbose cache add spec nib@^1.1.0
+290 silly cache add parsed spec Result {
+290 silly cache add   raw: 'nib@^1.1.0',
+290 silly cache add   scope: null,
+290 silly cache add   name: 'nib',
+290 silly cache add   rawSpec: '^1.1.0',
+290 silly cache add   spec: '>=1.1.0 <2.0.0',
+290 silly cache add   type: 'range' }
+291 silly addNamed nib@>=1.1.0 <2.0.0
+292 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for nib
+293 silly addNameRange { name: 'nib', range: '>=1.1.0 <2.0.0', hasData: false }
+294 silly mapToRegistry name nib
+295 silly mapToRegistry using default registry
+296 silly mapToRegistry registry https://registry.npmjs.org/
+297 silly mapToRegistry data Result {
+297 silly mapToRegistry   raw: 'nib',
+297 silly mapToRegistry   scope: null,
+297 silly mapToRegistry   name: 'nib',
+297 silly mapToRegistry   rawSpec: '',
+297 silly mapToRegistry   spec: 'latest',
+297 silly mapToRegistry   type: 'tag' }
+298 silly mapToRegistry uri https://registry.npmjs.org/nib
+299 verbose addNameRange registry:https://registry.npmjs.org/nib not in flight; fetching
+300 silly cache add args [ 'wiredep@^3.0.0', null ]
+301 verbose cache add spec wiredep@^3.0.0
+302 silly cache add parsed spec Result {
+302 silly cache add   raw: 'wiredep@^3.0.0',
+302 silly cache add   scope: null,
+302 silly cache add   name: 'wiredep',
+302 silly cache add   rawSpec: '^3.0.0',
+302 silly cache add   spec: '>=3.0.0 <4.0.0',
+302 silly cache add   type: 'range' }
+303 silly addNamed wiredep@>=3.0.0 <4.0.0
+304 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for wiredep
+305 silly addNameRange { name: 'wiredep', range: '>=3.0.0 <4.0.0', hasData: false }
+306 silly mapToRegistry name wiredep
+307 silly mapToRegistry using default registry
+308 silly mapToRegistry registry https://registry.npmjs.org/
+309 silly mapToRegistry data Result {
+309 silly mapToRegistry   raw: 'wiredep',
+309 silly mapToRegistry   scope: null,
+309 silly mapToRegistry   name: 'wiredep',
+309 silly mapToRegistry   rawSpec: '',
+309 silly mapToRegistry   spec: 'latest',
+309 silly mapToRegistry   type: 'tag' }
+310 silly mapToRegistry uri https://registry.npmjs.org/wiredep
+311 verbose addNameRange registry:https://registry.npmjs.org/wiredep not in flight; fetching
+312 verbose request uri https://registry.npmjs.org/express
+313 verbose request no auth needed
+314 info attempt registry request try #1 at 07:57:42
+315 verbose request id 54570916384cc014
+316 http request GET https://registry.npmjs.org/express
+317 verbose request uri https://registry.npmjs.org/nodemailer
+318 verbose request no auth needed
+319 info attempt registry request try #1 at 07:57:42
+320 http request GET https://registry.npmjs.org/nodemailer
+321 verbose request uri https://registry.npmjs.org/browser-sync
+322 verbose request no auth needed
+323 info attempt registry request try #1 at 07:57:42
+324 http request GET https://registry.npmjs.org/browser-sync
+325 verbose request uri https://registry.npmjs.org/gulp
+326 verbose request no auth needed
+327 info attempt registry request try #1 at 07:57:42
+328 http request GET https://registry.npmjs.org/gulp
+329 verbose request uri https://registry.npmjs.org/gulp-angular-templatecache
+330 verbose request no auth needed
+331 info attempt registry request try #1 at 07:57:42
+332 http request GET https://registry.npmjs.org/gulp-angular-templatecache
+333 verbose request uri https://registry.npmjs.org/gulp-browserify
+334 verbose request no auth needed
+335 info attempt registry request try #1 at 07:57:42
+336 http request GET https://registry.npmjs.org/gulp-browserify
+337 verbose request uri https://registry.npmjs.org/gulp-concat
+338 verbose request no auth needed
+339 info attempt registry request try #1 at 07:57:42
+340 http request GET https://registry.npmjs.org/gulp-concat
+341 verbose request uri https://registry.npmjs.org/gulp-htmlmin
+342 verbose request no auth needed
+343 info attempt registry request try #1 at 07:57:42
+344 http request GET https://registry.npmjs.org/gulp-htmlmin
+345 verbose request uri https://registry.npmjs.org/gulp-if
+346 verbose request no auth needed
+347 info attempt registry request try #1 at 07:57:42
+348 http request GET https://registry.npmjs.org/gulp-if
+349 verbose request uri https://registry.npmjs.org/gulp-ignore
+350 verbose request no auth needed
+351 info attempt registry request try #1 at 07:57:42
+352 http request GET https://registry.npmjs.org/gulp-ignore
+353 verbose request uri https://registry.npmjs.org/gulp-imagemin
+354 verbose request no auth needed
+355 info attempt registry request try #1 at 07:57:42
+356 http request GET https://registry.npmjs.org/gulp-imagemin
+357 verbose request uri https://registry.npmjs.org/gulp-inject
+358 verbose request no auth needed
+359 info attempt registry request try #1 at 07:57:42
+360 http request GET https://registry.npmjs.org/gulp-inject
+361 verbose request uri https://registry.npmjs.org/gulp-jshint
+362 verbose request no auth needed
+363 info attempt registry request try #1 at 07:57:42
+364 http request GET https://registry.npmjs.org/gulp-jshint
+365 verbose request uri https://registry.npmjs.org/gulp-livereload
+366 verbose request no auth needed
+367 info attempt registry request try #1 at 07:57:42
+368 http request GET https://registry.npmjs.org/gulp-livereload
+369 verbose request uri https://registry.npmjs.org/gulp-minify-css
+370 verbose request no auth needed
+371 info attempt registry request try #1 at 07:57:42
+372 http request GET https://registry.npmjs.org/gulp-minify-css
+373 verbose request uri https://registry.npmjs.org/gulp-minify-html
+374 verbose request no auth needed
+375 info attempt registry request try #1 at 07:57:42
+376 http request GET https://registry.npmjs.org/gulp-minify-html
+377 verbose request uri https://registry.npmjs.org/gulp-rename
+378 verbose request no auth needed
+379 info attempt registry request try #1 at 07:57:42
+380 http request GET https://registry.npmjs.org/gulp-rename
+381 verbose request uri https://registry.npmjs.org/gulp-rimraf
+382 verbose request no auth needed
+383 info attempt registry request try #1 at 07:57:42
+384 http request GET https://registry.npmjs.org/gulp-rimraf
+385 verbose request uri https://registry.npmjs.org/gulp-stylus
+386 verbose request no auth needed
+387 info attempt registry request try #1 at 07:57:42
+388 http request GET https://registry.npmjs.org/gulp-stylus
+389 verbose request uri https://registry.npmjs.org/gulp-uglify
+390 verbose request no auth needed
+391 info attempt registry request try #1 at 07:57:42
+392 http request GET https://registry.npmjs.org/gulp-uglify
+393 verbose request uri https://registry.npmjs.org/gulp-uncss
+394 verbose request no auth needed
+395 info attempt registry request try #1 at 07:57:42
+396 http request GET https://registry.npmjs.org/gulp-uncss
+397 verbose request uri https://registry.npmjs.org/gulp-useref
+398 verbose request no auth needed
+399 info attempt registry request try #1 at 07:57:42
+400 http request GET https://registry.npmjs.org/gulp-useref
+401 verbose request uri https://registry.npmjs.org/jshint
+402 verbose request no auth needed
+403 info attempt registry request try #1 at 07:57:42
+404 http request GET https://registry.npmjs.org/jshint
+405 verbose request uri https://registry.npmjs.org/nib
+406 verbose request no auth needed
+407 info attempt registry request try #1 at 07:57:42
+408 http request GET https://registry.npmjs.org/nib
+409 verbose request uri https://registry.npmjs.org/wiredep
+410 verbose request no auth needed
+411 info attempt registry request try #1 at 07:57:42
+412 http request GET https://registry.npmjs.org/wiredep
+413 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+414 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+415 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+416 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+417 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+418 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+419 info attempt registry request try #2 at 07:58:09
+420 http request GET https://registry.npmjs.org/browser-sync
+421 info attempt registry request try #2 at 07:58:09
+422 http request GET https://registry.npmjs.org/gulp
+423 info attempt registry request try #2 at 07:58:12
+424 http request GET https://registry.npmjs.org/express
+425 info attempt registry request try #2 at 07:58:14
+426 http request GET https://registry.npmjs.org/gulp-concat
+427 info attempt registry request try #2 at 07:58:17
+428 http request GET https://registry.npmjs.org/nodemailer
+429 info attempt registry request try #2 at 07:58:17
+430 http request GET https://registry.npmjs.org/gulp-htmlmin
+431 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+432 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+433 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+434 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+435 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+436 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+437 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+438 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+439 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+440 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+441 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+442 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+443 info attempt registry request try #2 at 07:58:29
+444 http request GET https://registry.npmjs.org/gulp-angular-templatecache
+445 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+446 info attempt registry request try #2 at 07:58:34
+447 http request GET https://registry.npmjs.org/gulp-browserify
+448 info attempt registry request try #2 at 07:58:34
+449 http request GET https://registry.npmjs.org/gulp-imagemin
+450 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+451 info attempt registry request try #2 at 07:58:35
+452 http request GET https://registry.npmjs.org/gulp-jshint
+453 info attempt registry request try #2 at 07:58:35
+454 http request GET https://registry.npmjs.org/gulp-inject
+455 info attempt registry request try #2 at 07:58:35
+456 http request GET https://registry.npmjs.org/gulp-minify-css
+457 info attempt registry request try #2 at 07:58:35
+458 http request GET https://registry.npmjs.org/gulp-livereload
+459 info attempt registry request try #2 at 07:58:35
+460 http request GET https://registry.npmjs.org/gulp-minify-html
+461 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+462 info attempt registry request try #2 at 07:58:37
+463 http request GET https://registry.npmjs.org/gulp-if
+464 info attempt registry request try #2 at 07:58:37
+465 http request GET https://registry.npmjs.org/gulp-ignore
+466 info attempt registry request try #2 at 07:58:37
+467 http request GET https://registry.npmjs.org/gulp-uglify
+468 info attempt registry request try #2 at 07:58:37
+469 http request GET https://registry.npmjs.org/gulp-rename
+470 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+471 info attempt registry request try #2 at 07:58:44
+472 http request GET https://registry.npmjs.org/gulp-stylus
+473 info attempt registry request try #2 at 07:58:45
+474 http request GET https://registry.npmjs.org/jshint
+475 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+476 info attempt registry request try #2 at 07:58:46
+477 http request GET https://registry.npmjs.org/nib
+478 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+479 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+480 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+481 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+482 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+483 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+484 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+485 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+486 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+487 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+488 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+489 info attempt registry request try #2 at 07:58:51
+490 http request GET https://registry.npmjs.org/wiredep
+491 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+492 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+493 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+494 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+495 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+496 info attempt registry request try #2 at 07:58:55
+497 http request GET https://registry.npmjs.org/gulp-rimraf
+498 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+499 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+500 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+501 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+502 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+503 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+504 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=write EPROTO 140334098302784:error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol:../deps/openssl/openssl/ssl/s23_clnt.c:794:
+505 info attempt registry request try #2 at 07:58:57
+506 http request GET https://registry.npmjs.org/gulp-useref
+507 info attempt registry request try #2 at 07:58:57
+508 http request GET https://registry.npmjs.org/gulp-uncss
+509 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+510 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+511 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+512 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+513 info attempt registry request try #3 at 07:59:47
+514 http request GET https://registry.npmjs.org/express
+515 info attempt registry request try #3 at 07:59:48
+516 http request GET https://registry.npmjs.org/gulp-concat
+517 info attempt registry request try #3 at 07:59:48
+518 http request GET https://registry.npmjs.org/nodemailer
+519 info attempt registry request try #3 at 07:59:48
+520 http request GET https://registry.npmjs.org/gulp-angular-templatecache
+521 info attempt registry request try #3 at 07:59:48
+522 http request GET https://registry.npmjs.org/gulp-htmlmin
+523 info attempt registry request try #3 at 07:59:48
+524 http request GET https://registry.npmjs.org/gulp-browserify
+525 info attempt registry request try #3 at 07:59:48
+526 http request GET https://registry.npmjs.org/gulp-jshint
+527 info attempt registry request try #3 at 07:59:49
+528 http request GET https://registry.npmjs.org/gulp-inject
+529 info attempt registry request try #3 at 07:59:49
+530 http request GET https://registry.npmjs.org/gulp-imagemin
+531 info attempt registry request try #3 at 07:59:51
+532 http request GET https://registry.npmjs.org/gulp
+533 info attempt registry request try #3 at 07:59:52
+534 http request GET https://registry.npmjs.org/gulp-minify-html
+535 info attempt registry request try #3 at 07:59:54
+536 http request GET https://registry.npmjs.org/gulp-if
+537 info attempt registry request try #3 at 07:59:54
+538 http request GET https://registry.npmjs.org/gulp-ignore
+539 info attempt registry request try #3 at 07:59:55
+540 http request GET https://registry.npmjs.org/gulp-uglify
+541 info attempt registry request try #3 at 07:59:56
+542 http request GET https://registry.npmjs.org/browser-sync
+543 info attempt registry request try #3 at 07:59:56
+544 http request GET https://registry.npmjs.org/gulp-rename
+545 info attempt registry request try #3 at 07:59:56
+546 http request GET https://registry.npmjs.org/gulp-stylus
+547 info attempt registry request try #3 at 07:59:56
+548 http request GET https://registry.npmjs.org/jshint
+549 info attempt registry request try #3 at 07:59:56
+550 http request GET https://registry.npmjs.org/nib
+551 info attempt registry request try #3 at 07:59:56
+552 http request GET https://registry.npmjs.org/wiredep
+553 info attempt registry request try #3 at 07:59:56
+554 http request GET https://registry.npmjs.org/gulp-rimraf
+555 info attempt registry request try #3 at 08:00:05
+556 http request GET https://registry.npmjs.org/gulp-minify-css
+557 info attempt registry request try #3 at 08:00:05
+558 http request GET https://registry.npmjs.org/gulp-livereload
+559 info attempt registry request try #3 at 08:00:17
+560 http request GET https://registry.npmjs.org/gulp-useref
+561 info attempt registry request try #3 at 08:00:17
+562 http request GET https://registry.npmjs.org/gulp-uncss
+563 verbose stack Error: tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+563 verbose stack     at ClientRequest.onError (/usr/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:176:17)
+563 verbose stack     at ClientRequest.g (events.js:260:16)
+563 verbose stack     at emitOne (events.js:77:13)
+563 verbose stack     at ClientRequest.emit (events.js:169:7)
+563 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:256:9)
+563 verbose stack     at emitOne (events.js:77:13)
+563 verbose stack     at TLSSocket.emit (events.js:169:7)
+563 verbose stack     at connectErrorNT (net.js:996:8)
+563 verbose stack     at nextTickCallbackWith2Args (node.js:442:9)
+563 verbose stack     at process._tickCallback (node.js:356:17)
+564 verbose cwd /home/adsi1/Documentos/plantillaI
+565 error Linux 3.19.0-15-generic
+566 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install"
+567 error node v4.4.2
+568 error npm  v2.15.0
+569 error code ECONNRESET
+570 error network tunneling socket could not be established, cause=getaddrinfo EAI_AGAIN proxy2.sena.edu.co:80
+570 error network This is most likely not a problem with npm itself
+570 error network and is related to network connectivity.
+570 error network In most cases you are behind a proxy or have bad network settings.
+570 error network
+570 error network If you are behind a proxy, please make sure that the
+570 error network 'proxy' config is set properly.  See: 'npm help config'
+571 verbose exit [ 1, true ]
